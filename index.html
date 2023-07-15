@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Pricing component</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Our Pricing</h1>
+      <div class="toggle">
+        <label> Monthly</label>
+        <div class="toggle-btn">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label class="sub" id="sub" for="checkbox">
+            <div class="circle"></div>
+          </label>
+        </div>
+        <label>Annually </label>
+      </div>
+      <h3 style="margin-top: 20px">20% off on Annual purchase</h3>
+    </header>
+    <div class="cards">
+      <div class="card shadow">
+        <ul>
+          <li class="pack">Essential</li>
+          <li id="basic" class="price bottom-bar">Rs. 799/mo</li>
+          <li class="bottom-bar">Home / Product</li>
+          <li class="bottom-bar">Only 1 Web-Design Option</li>
+          <li class="bottom-bar">Fewer color options</li>
+          <li class="bottom-bar">Only 1 Product Image</li>
+          <li class="bottom-bar">9 Product Limit</li>
+          <li class="bottom-bar">Free Hosting and Domain</li>
+          <li class="bottom-bar">Maintenance and 24/7 Support</li>
+          <li><button class="btn">Learn More</button></li>
+        </ul>
+      </div>
+      <div class="card active">
+        <ul>
+          <li class="pack">Premium</li>
+          <li id="professional" class="price bottom-bar">Rs. 1,699/mo</li>
+          <li class="bottom-bar">+Listings / Cart / Custom Checkout</li>
+          <li class="bottom-bar">4 stunning Web-Design option</li>
+          <li class="bottom-bar">Low to Medium Customization</li>
+          <li class="bottom-bar">Product Image Slider</li>
+          <li class="bottom-bar">30 Product Limit</li>
+          <li class="bottom-bar">Free Hosting and Domain</li>
+          <li class="bottom-bar">Maintenance and 24/7 Support</li>
+          <li><button class="btn active-btn">Learn More</button></li>
+        </ul>
+      </div>
+      <div class="card shadow">
+        <ul>
+          <li class="pack">Master</li>
+          <li id="master" class="price bottom-bar">Rs. 5,999/mo</li>
+          <li class="bottom-bar" style="text-align: center">
+            6+ Static & 10+ Dynamic Pages
+          </li>
+          <li class="bottom-bar" style="text-align: center">
+            Interative Design Options
+          </li>
+          <li class="bottom-bar">High Customization</li>
+          <li class="bottom-bar">Admin & Analytics Dashboard</li>
+          <li class="bottom-bar">Unlimited Products</li>
+          <li class="bottom-bar">Free Hosting and Domain</li>
+          <li class="bottom-bar">Maintenance and 24/7 Support</li>
+          <li><button class="btn">Learn More</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card-down shadow">
+      <div class="card-down-container">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            width: 80%;
+            position: relative;
+          "
+        >
+          <h2>Complete Custom Website in Mind!</h2>
+          <div class="icon-container">
+            <span
+              class="iconify"
+              data-icon="cil:arrow-right"
+              style="color: #3b3b3b"
+              data-width="80"
+              data-height="80"
+            ></span>
+          </div>
+        </div>
+        <button class="btn" style="margin-top: 0">Let's Have a Talk!</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  </body>
+</html>
