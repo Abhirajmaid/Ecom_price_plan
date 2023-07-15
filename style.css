@@ -233,6 +233,10 @@ ul li.price {
     .cards .card.active {
         transform: scale(0.8);
     }
+
+    ul li.price {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 280px) and (max-width: 320px) {
