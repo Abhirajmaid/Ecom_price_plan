@@ -254,7 +254,7 @@ ul li.price {
     }
 
     ul li.price {
-        font-size: 2rem;
+        font-size: 22px;
     }
 }
 
@@ -273,7 +273,7 @@ ul li.price {
     }
 
     ul li.price {
-        font-size: 2rem;
+        font-size: 22px;
     }
 }
 
@@ -285,10 +285,6 @@ ul li.price {
 
     .cards .card.active {
         transform: scale(1);
-    }
-
-    ul li.price {
-        font-size: 2rem;
     }
 }
 
