@@ -112,7 +112,7 @@ ul li {
 }
 
 ul li.price {
-    font-size: 4rem;
+    font-size: 3rem;
     color: hsl(232, 13%, 33%);
     padding-bottom: 2rem;
 }
